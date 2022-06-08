@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand&display=swap');
+
+table {
+    border-collapse: collapse;
+    border: 4px solid black;
+    margin: 50px auto;
+}
+
+td {
+    padding: 15px;
+    padding-right: 300px;
+    font-family: Khand;
+    font-size: 40px;
+    font-weight: bold;
+    border: 4px solid black;
+}
+
+table:nth-of-type(1) tr:nth-of-type(4) td:nth-of-type(2) {
+    background: orange;
+    color: white;
+}
+
+table:nth-of-type(1) tr:nth-of-type(5) td:nth-of-type(1) {
+    background: blue;
+    color: white;
+}
+
+table:nth-of-type(1) tr:nth-of-type(6) td:nth-of-type(1) {
+    background: green;
+    color: white;
+}
